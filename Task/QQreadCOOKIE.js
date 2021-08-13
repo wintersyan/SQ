@@ -1,5 +1,5 @@
 //独立COOKIE文件     ck在``里面填写，多账号换行
-let QQreadurlVal = `https://toblog.ctobsnssdk.com/service/2/app_log/?sdk_version=3303&version_code=7.6.60&language=zh&app_name=QQ%E9%98%85%E8%AF%BB&app_version=7.6.60&vid=1A66FF78-2959-4139-9C9D-CB398DFD985B&device_id=3281360957226180&channel=App%20Store&mcc_mnc=46001&host_appid=5112153&resolution=750*1334&aid=164362&os=iOS&openudid=f263e0e8f2371d2170bd4ee34184228cb5b3570c&timezone=8&ac=WIFI&device_model=iPhone10,1&os_version=14.7.1&device_platform=iphone&idfa=00000000-0000-0000-0000-000000000000`
+let QQreadurlVal = `IDFA=00000000-0000-0000-0000-000000000000; QVisible=0; appid=1450000540; areaid=1; auditStatus=0; c_version=qqreader_7.6.60.0372_iphone; client=2; gselect=1; jailbreak=0; loginType=50; net_type=1; nosid=1; platform=ioswp; qimei=e5592559612d6300be586621000010d15616; qrem=0; qrsn_new=e5592559612d6300be586621000010d15616; qrsy=7280f8d2c4821b70f3471851268d4437; qrtm=1628859543; rcmd=1; safkey=1e872243927d643391bbeafb88c838f7; server_sex=1; sex=1; sid=162885623211895; text_type=1; themeid=2000; trustedid=392a43b65b493a8733f813a04c1101ed1; ua=iPhone8-iOS14.7.1; uid=854035455248; usid=ywEYNvQc1QWq; version=qqreader_7.6.60.0372_iphone; youngerMode=0; ywguid=854035455248; ywkey=ywEYNvQc1QWq`
 
 
 
