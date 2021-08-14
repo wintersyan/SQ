@@ -23,7 +23,7 @@ jobs:
           npm install cron
           npm install request
           npm install tough-cookie
-      - name: '【QQ阅读】'
+      - name: '【步步宝】'
         run: |
           cd ~/js  
           node Task/bububao.js
