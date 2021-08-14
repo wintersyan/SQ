@@ -36,7 +36,7 @@ jobs:
         run: |
           node Task/rl.js
         env:
-          rlurlVal: ${{ secrets.RLURL }}
+          RLURL: ${{ secrets.RLURL }}
           RLHEADER: ${{ secrets.RLHEADER }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_SOUND: ${{ secrets.BARK_SOUND }}
