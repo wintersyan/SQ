@@ -34,7 +34,7 @@ jobs:
           npm install
       - name: '运行 【燃旅】'
         run: |
-          node Task/znxq.js
+          node Task/rl.js
         env:
           RLURL: ${{ secrets.RLURL }}
           RLHEADER: ${{ secrets.RLHEADER }}
