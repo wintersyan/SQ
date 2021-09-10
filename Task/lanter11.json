@@ -1,0 +1,267 @@
+{
+  "id": "lanter11",
+  "name": "自用脚本订阅",
+  "author": "lanter11",
+  "icon": "https://raw.githubusercontent.com/58xinian/icon/master/xmyd_mini.png",
+  "apps": [
+      {
+      "id": "JD_Cookies",
+      "name": "京东签到",
+      "keys": ["CookiesJD"],
+      "descs_html": [
+        "请勿随意在输入框修改内容，建议通过脚本去获取cookie，若要修改，请按照JSON 格式修改。",
+        "使用方式【<a href=\"https://home.m.jd.com/myJd/newhome.action\">个人中心</a>】获取对应的数据Code"
+      ],
+    "scripts": [{
+      "name": "京东签到",
+      "script": "https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js"
+    }],
+      "settings": [
+        {
+          "id": "CookiesJD",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": false,
+          "rows": 9,
+          "val": "[\n  {\n    \"cookie\": \"此处填写账号1 Cookie\"\n  },\n  {\n    \"cookie\": \"此处填写账号2 Cookie\",\n    \"jrBody\": \"此处填写账号2 钢镚Body\"\n  }\n]",
+          "placeholder": "[ {\"cookie\": \"pt_key=xxx;pt_pin=yyy;\", \"jrBody\": \"reqData=zzz\"}  ]",
+          "desc": "Cookie和钢镚签到Body列表, 如需修改请严格按照JSON格式填写; \"cookie\"为必须, 其他为可选."
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/jd.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
+      ],
+      "author": "@dompling",
+      "repo": "https://github.com/dompling/Script",
+      "script": "https://raw.githubusercontent.com/dompling/Script/master/jd/JD_extra.js"
+    },
+    {
+      "id": "xmSports",
+      "name": "小米运动",
+      "keys": [
+        "xmSportsToken",
+        "xmMinStep",
+        "xmMaxStep"
+      ],
+      "settings": [
+        {
+          "id": "xmSportsToken",
+          "name": "小米运动Token",
+          "val": "",
+          "type": "text",
+          "desc": "小米运动登录时获取的token"
+        },
+        {
+          "id": "xmMinStep",
+          "name": "最小运动步数",
+          "val": "19000",
+          "type": "text",
+          "desc": "需要修改最小的运动步数的数字,例如:19000"
+        },
+        {
+          "id": "xmMaxStep",
+          "name": "最大运动步数",
+          "val": "25000",
+          "type": "text",
+          "desc": "需要修改最小的运动步数的数字,例如:25000"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://github.com/lxk0301/jd_scripts",
+      "script": "https://raw.githubusercontent.com/lxk0301/jd_scripts/master/backUp/xmSports.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/xmyd_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png"
+      ]
+    },
+   {
+      "id": "didi_fruit",
+      "name": "滴滴橙心果园",
+      "keys": [
+        "ddtoken"
+      ],
+      "descs_html": [
+        "填写token,多账号用英文逗号(,)分开"
+      ],
+      "settings": [
+        {
+          "id": "ddtoken",
+          "name": "token",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "token"
+        }
+      ],
+      "icons": [
+        "https://gitee.com/passerby-b/javascript/raw/master/icon/didi.png",
+        "https://gitee.com/passerby-b/javascript/raw/master/icon/didi.png"
+      ],
+      "author": "@passerby-b",
+      "repo": "https://gitee.com/passerby-b/javascript/raw/master/JD/passerby-b.boxjs.json",
+      "script": "https://raw.githubusercontent.com/passerby-b/didi_fruit/main/dd_fruit.js"
+    },
+    {
+      "id": "joy_run",
+      "name": "宠汪汪Token",      
+      "keys": [
+        "jdJoyRunToken"
+      ],
+      "descs_html": [
+        "填写LKYLToken"
+      ],
+      "settings": [
+        {
+          "id": "jdJoyRunToken",
+          "name": "宠汪汪Token",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": false,
+          "rows": 3,
+           "placeholder": "jdJoyRunToken",
+          "desc": "LKYLToken"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/jd.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
+      ],
+      "author": "@lanter",
+      "script": "joy_getToken.js"
+    },
+    
+    {
+      "id": "Youth",
+      "name": "中青看点",      
+      "author" : "@sunert",
+      "descs_html": [
+      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://github.com/Sunert/Scripts/raw/master/TaskConf/youth/readme.md\">配置说明</a></h4>",
+      "<br />",
+      "<p>其中zq_nick、zqcash和zqcard为昵称、提现金额和早起打卡开关，无需另外获取，相关项设置后自动生成，cashurl_zq和cashbody_zq为提现请求，获取后方可自动提现，可选</p>"
+    ],
+      "keys" : [
+        "zq_nick",
+        "youthheader_zq",
+        "read_zq",
+        "readtime_zq",
+        "youth_autoread",
+        "autotime_zq",
+        "youth_start",
+        "youth_look",
+        "cashurl_zq",
+        "cashbody_zq",
+        "zqcash",
+        "zqcard"
+      ],
+      "repo" : "https://github.com/Sunert/Scripts/blob/master/Task/youth.js",
+      "id" : "youth",
+      "script" : "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js",
+      "settings" : [
+        {
+          "id" : "zqcard",
+          "val" : "false",
+          "name" : "打卡赚钱",
+          "type" : "boolean",
+          "desc" : "每日打卡报名及早起打卡"
+        },
+        {
+          "id" : "zqtime",
+          "val" : "05",
+          "name" : "打卡时间",
+          "type" : "number",
+          "desc" : "每日早起打卡时间"
+        },
+        {
+          "id" : "delay_rotary_zq",
+          "val" : "10",
+          "name" : "转盘时间间隔",
+          "type" : "number",
+          "desc" : "间隔时间设置，如1秒填1即可"
+        },
+        {
+          "id" : "notifytimes",
+          "val" : "",
+          "name" : "通知频率 (点击查看设置说明)",
+          "type" : "number",
+          "desc" : "设定通知频率，前三次为全部通知，之后转盘次数/设定频率整除时通知，如设置0为无通知，设置1为全部通知，设置其他数可整除余0时通知，默认值50"
+        },
+        {
+          "id" : "zqcash",
+          "val" : "10",
+          "name" : "提现金额",
+          "type" : "radios",
+          "desc" : "自动提现金额需和获取提现请求保持一致",
+          "items" : [
+            {
+              "key" : "10",
+              "label" : "10元"
+            },
+            {
+              "key" : "30",
+              "label" : "30元"
+            },
+            {
+              "key" : "100",
+              "label" : "100元"
+            }
+          ]
+        }
+      ],
+      "name" : "中青看点",
+      "icons" : [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/youth.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"
+      ]
+    },
+    {
+      "id": "youthShareRead",
+      "name": "中青分享",
+      "keys": [
+        "shareurl_zq",
+        "zqsharemin",
+        "zqsharemax",
+        "shareurl_jc"
+      ],
+      "settings": [
+        {
+          "id": "shareurl_zq",
+          "name": "中青分享链接",
+          "val": "",
+          "type": "text",
+          "desc": "中青分享时获取的链接"
+        },
+        {
+          "id" : "zqsharemin",
+          "val" : "6",
+          "name" : "最少次数",
+          "type" : "number",
+          "desc" : "定义最少分享次数"
+        },
+        {
+          "id" : "zqsharemax",
+          "val" : "13",
+          "name" : "最多次数",
+          "type" : "number",
+          "desc" : "定义最多分享次数"
+        },
+        {
+          "id": "shareurl_jc",
+          "name": "晶彩分享链接",
+          "val": "",
+          "type": "text",
+          "desc": "晶彩分享时获取的链接"
+        }
+      ],
+      "author": "@sunert",
+      "repo": "https://github.com/Sunert/Scripts/blob/master/Task/youthShareRead.js",
+      "script": "https://github.com/Sunert/Scripts/blob/master/Task/youthShareRead.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/youth.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"
+      ]
+    }
+  ]
+}
