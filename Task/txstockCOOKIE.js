@@ -32,6 +32,15 @@ let cookieArr = {
   taskheaderVal: taskheaderVal, 
   taskkeyVal: taskkeyVal,
   wxtaskkeyVal: wxtaskkeyVal, 
+
+  userheaderVal2: userheaderVal2,
+  userkeyVal2: userkeyVal2,
+  cashheaderVal2: cashheaderVal2,
+  signheaderVal2: signheaderVal2,
+  signkeyVal2: signkeyVal2,
+  taskheaderVal2: taskheaderVal2, 
+  taskkeyVal2: taskkeyVal2,
+  wxtaskkeyVal2: wxtaskkeyVal2, 
 }
 
 module.exports =  cookieArr
