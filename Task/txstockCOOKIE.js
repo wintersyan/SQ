@@ -11,7 +11,8 @@ let cashheaderVal= `5
 let signheaderVal= `v0aaf63c2216159bd2ca9d03e95e1cf7&channel=1&access_token=50_jnwuSVvCld542AooqE0k-Th3BBG3gUZU6Z71vthZlieE-sCQvkdEQXEp-rxM9Y5NrpWEML2o7w9J5ROBHHo4NkUbGoW44ZKGMKZhHNNhH1c&_appName=ios&_appver=9.4.1&_osVer=15.0.2&_devId=82795e016e290d124bee883a0e96cb549ba8364b
 v0aaf8a8222617268a418c7e05e95e1e&channel=1&access_token=50_L5vnaRz2rIA_6Yjp0YMTW6Onl2xk9gehHwpWUwkS-IaMyjTiWRZ1KL3dApG5C7DdWJMwezwxxYafz4BGK5GQvXL9ZK1dDai2tTjVHpFsWKE&_appName=ios&_appver=9.5.0&_osVer=15.0.2&_devId=82795e016e290d124bee883a0e96cb549ba8364b`
 
-let signkeyVal= `{""}`
+let signkeyVal= `{""}
+{""}`
 
 let taskheaderVal= `&_dev=iPhone10,1&_devId=82795e016e290d124bee883a0e96cb549ba8364b&_appver=9.4.1&_ifChId=&_isChId=1&_osVer=15.0.2&openid=oA0GbjvVrktMICKze0EFnSPvwo34&fskey=v0aaf63c2216159bd2ca9d03e95e1cf7&appid=wxcbc3ab3807acb685&access_token=50_jnwuSVvCld542AooqE0k-Th3BBG3gUZU6Z71vthZlieE-sCQvkdEQXEp-rxM9Y5NrpWEML2o7w9J5ROBHHo4NkUbGoW44ZKGMKZhHNNhH1c&buildType=store&check=11&_idfa=&lang=zh_CN
 &_dev=iPhone10,1&_devId=82795e016e290d124bee883a0e96cb549ba8364b&_appver=9.5.0&_ifChId=&_isChId=1&_osVer=15.0.2&openid=oA0GbjlR_YMYMMtVeeF_vqNV9EkE&fskey=v0aaf8a8222617268a418c7e05e95e1e&appid=wxcbc3ab3807acb685&access_token=50_L5vnaRz2rIA_6Yjp0YMTW6Onl2xk9gehHwpWUwkS-IaMyjTiWRZ1KL3dApG5C7DdWJMwezwxxYafz4BGK5GQvXL9ZK1dDai2tTjVHpFsWKE&buildType=store&check=11&_idfa=&lang=zh_CN`
@@ -32,15 +33,6 @@ let cookieArr = {
   taskheaderVal: taskheaderVal, 
   taskkeyVal: taskkeyVal,
   wxtaskkeyVal: wxtaskkeyVal, 
-
-  userheaderVal2: userheaderVal2,
-  userkeyVal2: userkeyVal2,
-  cashheaderVal2: cashheaderVal2,
-  signheaderVal2: signheaderVal2,
-  signkeyVal2: signkeyVal2,
-  taskheaderVal2: taskheaderVal2, 
-  taskkeyVal2: taskkeyVal2,
-  wxtaskkeyVal2: wxtaskkeyVal2, 
 }
 
 module.exports =  cookieArr
