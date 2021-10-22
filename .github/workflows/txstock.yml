@@ -39,14 +39,14 @@ jobs:
           node Task/txstock.js
     env:
       RUNFILE: "txstock.js"
-      USERHEADER: ${{ secrets.USERHEADER }}
-      USERKEY: ${{ secrets.USERKEY }}
-      CASHHEADER: ${{ secrets.CASHHEADER }}
-      SIGNHEADER: ${{ secrets.SIGNHEADER }}
-      SIGNKEY: ${{ secrets.SIGNKEY }}
-      TASKHEADER: ${{ secrets.TASKHEADER }}
-      TASKKEY: ${{ secrets.TASKKEY }}
-      WXTASKKEY: ${{ secrets.WXTASKKEY }}
+      USERHEADERVAL: ${{ secrets.USERHEADER }}
+      USERKEYVAL: ${{ secrets.USERKEY }}
+      CASHHEADERVAL: ${{ secrets.CASHHEADER }}
+      SIGNHEADERVAL: ${{ secrets.SIGNHEADER }}
+      SIGNKEYVAL: ${{ secrets.SIGNKEY }}
+      TASKHEADERVAL: ${{ secrets.TASKHEADER }}
+      TASKKEYVAL: ${{ secrets.TASKKEY }}
+      WXTASKKEYVAL: ${{ secrets.WXTASKKEY }}
       PUSH_KEY: ${{ secrets.PUSH_KEY }}
       BARK_PUSH: ${{ secrets.BARK_PUSH }}
       BARK_SOUND: ${{ secrets.BARK_SOUND }}
