@@ -26,4 +26,4 @@ jobs:
         env:
           txwzq_txwzqck: ${{ secrets.txwzq_txwzqck }}
           txzxg_txzxgck: ${{ secrets.txzxg_txzxgck }}
-          txzxg_txzxgcash: ${{ secrets.txzxg_txzxgcash }}
+          txzxg_cash: ${{ secrets.txzxg_cash }}
